@@ -198,19 +198,4 @@ Real Estate Analytics Project
 │   └── df.pkl
 └── Reports
     └── output_report.html
-```
 
-## Key Features
-
-- Comprehensive Data Pipeline
-- Advanced Feature Engineering
-- Multiple ML Models Implementation
-- Recommendation System
-- Business Intelligence Analysis
-- Production Ready Models
-
-## Model Performance
-
-- R² Score: 0.865
-- Mean Absolute Error: Optimized through cross-validation
-- Cross-validation: 10-fold CV with consistent performance

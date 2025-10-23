@@ -23,6 +23,9 @@ Developed a full-scale machine learning project following the Machine Learning D
 
 ## Project Phases
 
+> **Note:** All project files following the Machine Learning Development Life Cycle (MLDLC) are available [here](https://github.com/Samarthjadhavsj/Real-Estate-Analytics/tree/main/Machine%20Learning%20Development%20Life%20Cycle%20(MLDLC)%20Data%20file).
+
+
 ### 1. Project Planning & Roadmap
 Established project scope, defined objectives, and created a comprehensive roadmap for the real estate analytics pipeline.
 

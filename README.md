@@ -1,6 +1,6 @@
 ## Technical Requirements
 ###  Dependencies
-
+[![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![pandas](https://img.shields.io/badge/pandas-1.3.0-blue)](https://pandas.pydata.org/)
 [![numpy](https://img.shields.io/badge/numpy-1.21.0-orange)](https://numpy.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0.0-green)](https://scikit-learn.org/)
@@ -104,7 +104,7 @@ Developed and optimized machine learning models for property price prediction.
 - LASSO Regression
 - Support Vector Regression (SVR)
 - Decision Tree Regressor
-- Random Forest Regressor
+- Random Forest Regressor-Final Model 
 - Extra Trees Regressor
 - Gradient Boosting Regressor
 - AdaBoost Regressor

@@ -27,6 +27,9 @@ Developed a full-scale machine learning project following the Machine Learning D
 
 > **Note:** The complete [Project Report](https://github.com/Samarthjadhavsj/Real-Estate-Analytics/blob/main/PROJECT%20REPORT.pdf) is available here.
 
+>   **Website:** [Real Estate Analytics Live](https://real-estate-analytics-5bcjr63xbxs8og3nv4anoz.streamlit.app/)
+
+
 
 
 ### 1. Project Planning & Roadmap

@@ -1,18 +1,37 @@
+## Technical Requirements
+###  Dependencies
+
+[![pandas](https://img.shields.io/badge/pandas-1.3.0-blue)](https://pandas.pydata.org/)
+[![numpy](https://img.shields.io/badge/numpy-1.21.0-orange)](https://numpy.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0.0-green)](https://scikit-learn.org/)
+[![matplotlib](https://img.shields.io/badge/matplotlib-3.4.0-blueviolet)](https://matplotlib.org/)
+[![seaborn](https://img.shields.io/badge/seaborn-0.11.0-purple)](https://seaborn.pydata.org/)
+[![plotly](https://img.shields.io/badge/plotly-5.0.0-pink)](https://plotly.com/python/)
+[![scipy](https://img.shields.io/badge/scipy-1.7.0-lightgrey)](https://www.scipy.org/)
+[![statsmodels](https://img.shields.io/badge/statsmodels-0.12.0-darkgreen)](https://www.statsmodels.org/)
+[![beautifulsoup4](https://img.shields.io/badge/beautifulsoup4-4.9.0-orange)](https://www.crummy.com/software/BeautifulSoup/)
+[![pickle-mixin](https://img.shields.io/badge/pickle--mixin-1.0.0-lightblue)](https://pypi.org/project/pickle-mixin/)
+[![streamlit](https://img.shields.io/badge/streamlit-1.0.0-ff4b4b)](https://streamlit.io/)
+[![wordcloud](https://img.shields.io/badge/wordcloud-1.8.1-lightgrey)](https://amueller.github.io/word_cloud/)
+[![shap](https://img.shields.io/badge/shap-0.40.0-lightgreen)](https://shap.readthedocs.io/)
+
+---
 # Real Estate Analytics & Price Prediction System
 
-A comprehensive ML project from starting to deploying using MLDLC built to gain practical knowledge by applying theoretical knowledge. This project involves real estate data analysis, comprehensive data analysis, feature engineering, machine learning model development, and building a recommendation system for property suggestions. The project follows a structured approach from data collection to deployment-ready insights.
+Comprehensive Machine Learning Project | Real-World Real Estate Analytics
+Developed a full-scale machine learning project following the Machine Learning Development Life Cycle (MLDLC) to turn theoretical knowledge into practical skills. Leveraged real-world real estate data to perform data collection, preprocessing, exploratory analysis, feature engineering, model development, and recommendation system creation. Delivered deployment-ready insights while gaining hands-on experience to tackle real-world machine learning challenges.
 
 ## Project Phases
 
 ### 1. Project Planning & Roadmap
-**Objective**: Established project scope, defined objectives, and created a comprehensive roadmap for the real estate analytics pipeline.
+Established project scope, defined objectives, and created a comprehensive roadmap for the real estate analytics pipeline.
 
 **Files Used**: Project documentation and planning artifacts
 
 ---
 
 ### 2. Data Gathering & Initial Preprocessing
-**Objective**: Collected comprehensive real estate data and performed initial data cleaning and preprocessing.
+Collected comprehensive real estate data and performed initial data cleaning and preprocessing.
 
 **Files Used**:
 - [data-preprocessing-flats.ipynb](data-preprocessing-flats.ipynb)
@@ -27,7 +46,7 @@ A comprehensive ML project from starting to deploying using MLDLC built to gain 
 ---
 
 ### 3. Exploratory Data Analysis (EDA)
-**Objective**: Conducted comprehensive exploratory data analysis to understand data patterns, distributions, and relationships.
+Conducted comprehensive exploratory data analysis to understand data patterns, distributions, and relationships.
 
 **Files Used**:
 - [eda-univariate-analysis.ipynb](eda-univariate-analysis.ipynb)
@@ -38,7 +57,7 @@ A comprehensive ML project from starting to deploying using MLDLC built to gain 
 ---
 
 ### 4. Feature Engineering
-**Objective**: Created meaningful features from raw data to improve model performance and extract valuable insights.
+Created meaningful features from raw data to improve model performance and extract valuable insights.
 
 **Files Used**:
 - [feature-engineering.ipynb](feature-engineering.ipynb)
@@ -49,7 +68,7 @@ A comprehensive ML project from starting to deploying using MLDLC built to gain 
 ---
 
 ### 5. Outlier Detection & Treatment
-**Objective**: Identified and treated outliers in the dataset to improve data quality and model performance.
+Identified and treated outliers in the dataset to improve data quality and model performance.
 
 **Files Used**:
 - [outlier-treatment.ipynb](outlier-treatment.ipynb)
@@ -58,7 +77,7 @@ A comprehensive ML project from starting to deploying using MLDLC built to gain 
 ---
 
 ### 6. Missing Value Imputation
-**Objective**: Handled missing values systematically using various imputation strategies.
+Handled missing values systematically using various imputation strategies.
 
 **Files Used**:
 - [missing-value-imputation.ipynb](missing-value-imputation.ipynb)
@@ -67,7 +86,7 @@ A comprehensive ML project from starting to deploying using MLDLC built to gain 
 ---
 
 ### 7. Feature Selection
-**Objective**: Selected the most relevant features for model building to improve performance and reduce complexity.
+Selected the most relevant features for model building to improve performance and reduce complexity.
 
 **Files Used**:
 - [feature-selection.ipynb](feature-selection.ipynb)
@@ -77,7 +96,7 @@ A comprehensive ML project from starting to deploying using MLDLC built to gain 
 ---
 
 ### 8. Model Building (Price Prediction)
-**Objective**: Developed and optimized machine learning models for property price prediction.
+Developed and optimized machine learning models for property price prediction.
 
 **Models Implemented**:
 - Linear Regression
@@ -99,7 +118,7 @@ A comprehensive ML project from starting to deploying using MLDLC built to gain 
 ---
 
 ### 9. Analysis & Insights Module Development
-**Objective**: Developed comprehensive analysis modules to extract business insights from the data.
+Developed comprehensive analysis modules to extract business insights from the data.
 
 **Files Used**:
 - [insights-module.ipynb](insights-module.ipynb)
@@ -108,7 +127,7 @@ A comprehensive ML project from starting to deploying using MLDLC built to gain 
 ---
 
 ### 10. Recommendation System Development
-**Objective**: Built a sophisticated recommendation system for property suggestions based on multiple similarity metrics.
+Built a sophisticated recommendation system for property suggestions based on multiple similarity metrics.
 
 **Files Used**:
 - [recommender-system.ipynb](recommender-system.ipynb)
@@ -118,7 +137,7 @@ A comprehensive ML project from starting to deploying using MLDLC built to gain 
 ---
 
 ### 11. Deployment & Integration
-**Objective**: Prepared the system for deployment with proper model serialization and integration capabilities.
+Prepared the system for deployment with proper model serialization and integration capabilities.
 
 **Files Used**:
 - Model pipeline files (pipeline.pkl)
@@ -127,35 +146,9 @@ A comprehensive ML project from starting to deploying using MLDLC built to gain 
 ---
 
 ### 12. Documentation
-**Objective**: Created comprehensive documentation for the project including technical specifications and usage guidelines.
+Created comprehensive documentation for the project including technical specifications and usage guidelines.
 
 ---
-
-## Technical Requirements
-
-### Dependencies
-- pandas>=1.3.0
-- numpy>=1.21.0
-- scikit-learn>=1.0.0
-- xgboost>=1.5.0
-- category-encoders>=2.3.0
-- matplotlib>=3.4.0
-- seaborn>=0.11.0
-- plotly>=5.0.0
-- scipy>=1.7.0
-- statsmodels>=0.12.0
-- requests>=2.25.0
-- beautifulsoup4>=4.9.0
-- selenium>=4.0.0
-- pickle-mixin>=1.0.0
-- tqdm>=4.62.0
-
-### Installation Steps
-1. Clone the repository
-2. Install required dependencies
-3. Run the notebooks in sequence
-4. Use the trained models for predictions
-
 ## Project Structure
 
 ```
